@@ -32,7 +32,7 @@ Passo 1:No arquivo build.gradle do módulo, adicione as seguintes dependências:
       implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
   }
 
-Passo 2: Configurar o Layout XML para as Abas. Configurar o Layout XML para as Abas: 
+Passo 2: Configurar o Layout XML para as Abas.
 
     ```
 
