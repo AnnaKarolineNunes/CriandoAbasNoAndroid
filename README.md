@@ -6,7 +6,7 @@ Este projeto, desenvolvido em Java, tem como objetivo a implementação de abas 
 - Navegação entre abas, cada uma com um conteudo distinto
 
 ## Passo a passo
-Passo 1: Configurar as dependência, no modulo build.gradle 
+Passo 1: Configurar as dependências, no modulo build.gradle. Utilize o link para acessar a bibioteca : https://github.com/ogaclejapan/SmartTabLayout/
     ```
 
       dependencies {
