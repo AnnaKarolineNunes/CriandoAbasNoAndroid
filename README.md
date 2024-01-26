@@ -1,12 +1,16 @@
 # Criando Abas em apps Android 
 
 ## Descrição
-Este projeto, desenvolvido em Java, tem como objetivo a implementação de abas em aplicativos Android, proporcionando uma experiência de navegação intuitiva entre diferentes seções. Para alcançar esse propósito, foi utilizada a biblioteca SmartTabLayout
+Este projeto, desenvolvido em Java, tem como objetivo a implementação de abas em aplicativos Android, proporcionando uma experiência de navegação intuitiva entre diferentes seções. Para alcançar esse propósito, foi utilizada a biblioteca SmartTabLayout.
+
+- Link da biblioteca utilizada: https://github.com/ogaclejapan/SmartTabLayout/
+  
 ## Funcionalidades
 - Navegação entre abas, cada uma com um conteudo distinto
 
 ## Passo a passo
-Passo 1: Configurar as dependências, no modulo build.gradle. Utilize o link para acessar a bibioteca : https://github.com/ogaclejapan/SmartTabLayout/
+Passo 1:No arquivo build.gradle do módulo, adicione as seguintes dependências:
+
     ```
 
       dependencies {
@@ -25,21 +29,8 @@ Passo 1: Configurar as dependências, no modulo build.gradle. Utilize o link par
       implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
   }
 
-Passo 2: Configurar o arquivo XMl para as abas. Adicione este trecho de código no meio do activity_main.xml Antes: 
+Passo 2: Configurar o Layout XML para as Abas. Configurar o Layout XML para as Abas: 
 
-    ```
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
-       
-    </LinearLayout>
-
-Depois:
     ```
 
         <?xml version="1.0" encoding="utf-8"?>
@@ -89,7 +80,7 @@ Depois:
             />
     </LinearLayout>
 
-Passo 3: Criar referencias para os componentes viewpagertab e viewpager no MainActivity.java
+Passo 3: Criar Referências para Componentes no MainActivity.java
 
     ```
 
@@ -108,7 +99,7 @@ Passo 3: Criar referencias para os componentes viewpagertab e viewpager no MainA
     }
 }
 
-Passo 4: Configurar as abas dentro do método onCreate no MainActivity.java
+Passo 4: Configurar as Abas no MainActivity.java
 
     ```
 
