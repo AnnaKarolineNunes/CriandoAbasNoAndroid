@@ -8,9 +8,8 @@ Este projeto, desenvolvido em Java, tem como objetivo a implementação de abas 
 ## Funcionalidades
 - Navegação entre abas, cada uma com um conteudo distinto
 
-  ![image](https://github.com/AnnaKarolineNunes/CriandoAbasNoAndroid/assets/101477642/273fffa5-1cc7-4ee0-bd18-3080b7e52e17)
-  ![image](https://github.com/AnnaKarolineNunes/CriandoAbasNoAndroid/assets/101477642/7f4bec22-0f3b-4eb7-99e0-3b0fe3c9def3)
-  ![image](https://github.com/AnnaKarolineNunes/CriandoAbasNoAndroid/assets/101477642/7516aa03-ba5d-4ef6-8120-09b5cc246b3d)
+ ![Frame 1](https://github.com/AnnaKarolineNunes/CriandoAbasNoAndroid/assets/101477642/a369a356-91e3-4dd5-9c7f-6c70b5e47bc3)
+
 
 ## Passo a passo
 Passo 1:No arquivo build.gradle do módulo, adicione as seguintes dependências:
